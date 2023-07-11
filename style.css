@@ -56,8 +56,61 @@
 }
 
 .features-heading {
-    background-color: ;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+}
+
+.features-descriptin {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.feature-box {
+    display: flex;
+   
+    justify-content: space-around;
+        /* margin-right: 40px; */
+}
+
+.flower-img-1 {
+    padding: 50px 20px 0px 20px;
+    width: 250px;
+    height: 270px;
+    margin-top: 100px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img-2 {
+    padding: 20px 20px 0px 20px;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 300px 300px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.flower-img-3 {
+    padding: 20px 20px 0px 20px;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-name {
+    text-align: center;
+}
+
+/**Service Section**/
+.services {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
 }
