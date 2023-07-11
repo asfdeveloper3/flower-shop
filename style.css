@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/**Web Header**/
 .header-container {
     height: 450px;
     background-color: rgba(229, 84, 115, 0.10);
@@ -42,4 +43,21 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
+}
+
+/**Feature Section**/
+.features {
+    height: 550px;
+}
+
+.features-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.features-heading {
+    background-color: ;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
 }
