@@ -149,9 +149,10 @@ body {
 }
 
 /**Social Bar**/
-.social{
+.social {
     height: 500px;
 }
+
 .social-heading {
     text-align: center;
     margin-bottom: 20px;
@@ -167,13 +168,142 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.social-img{
+
+.social-img {
     width: 250px;
     height: 300px;
 }
+
 .social-img-container {
     display: flex;
     justify-content: center;
-    gap: 40px;  
-    box-shadow: 5px 5px 5px rgb(170, 91, 91);
+    gap: 40px;
+}
+
+/**New Section**/
+
+/**Review Section**/
+.customer-review-container {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    border-radius: 20px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: rgba(229, 84, 115, 0.09);
+}
+
+.customer-review {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.short-text {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.review-img {
+    height: 100px;
+    width: 90px;
+    border-radius: 100px;
+}
+
+.review {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.review-container-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.name {
+    margin: 5px;
+}
+
+.review {
+    margin: 5px;
+}
+
+/**Deal Section**/
+.deal {
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+    background-image: url('./asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px
+}
+
+.deal-info {
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+.last-btn {
+    background-color: #E55473;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#input {
+    font-size: 18pt;
+    height: 38px;
+    width: 380px;
+}
+
+/**Footer**/
+.footer-section {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.last-line {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 100px;
 }
