@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    height: 450px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+}
+
+.moto {
+    color: #272727;
+    width: 708px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.short-msg {
+    margin-top: 30px;
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.side-img {
+    height: 450px;
+    width: 400px;
+    padding: 0px 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #E55473;
+    padding: 20px 35px;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
