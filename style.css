@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 /**Web Header**/
 .header-container {
     height: 450px;
@@ -39,6 +43,7 @@
     background-color: #E55473;
     padding: 20px 35px;
     border: none;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px gray;
     font-size: 20px;
     font-weight: 700;
@@ -67,9 +72,8 @@
 
 .feature-box {
     display: flex;
-   
     justify-content: space-around;
-        /* margin-right: 40px; */
+    /* margin-right: 40px; */
 }
 
 .flower-img-1 {
@@ -105,12 +109,44 @@
 
 /**Service Section**/
 .services {
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
+}
+
+/**Discount-Banner**/
+.discount-banner {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding: 40px;
+    margin-bottom: 90px;
+
+}
+
+.banner-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* .banner-content{
+   
+} */
+.banner-img {
+    width: 150px;
+    height: 200px;
 }
