@@ -143,10 +143,37 @@ body {
     font-weight: 400;
 }
 
-/* .banner-content{
-   
-} */
 .banner-img {
     width: 150px;
     height: 200px;
+}
+
+/**Social Bar**/
+.social{
+    height: 500px;
+}
+.social-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-desc {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.social-img{
+    width: 250px;
+    height: 300px;
+}
+.social-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;  
+    box-shadow: 5px 5px 5px rgb(170, 91, 91);
 }
